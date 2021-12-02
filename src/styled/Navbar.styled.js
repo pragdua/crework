@@ -20,5 +20,9 @@ export const StyledNavbar = styled.div`
 
 
     }
+
+    & h2 {
+        color: #FDAD3B;
+    }
         
 `;
