@@ -9,14 +9,14 @@ export const StyledHero = styled.div`
     flex-direction: column;
     background: #121212;
     /* padding: 1.7rem; */
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-top: 1rem;
 
 
 
     &   button {
         padding: 10px 15px 10px 15px;
-        border-radius: 20px;
+        border-radius: 999px;
         color: #121212;
         background: white;
         position: relative;

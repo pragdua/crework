@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Member from './Member';
-import {members} from "./member"
+import {members} from "./member-list"
 import {StyledCrew} from "../styled/Crew.styled"
 import ishant from "../images/ishant.png"
 import antaripa from "../images/antaripa.png"
