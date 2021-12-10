@@ -15,7 +15,13 @@ export const StyledCrew = styled.div`
         margin-top: 20px;
         display: flex;
         justify-content: flex-start;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    & .avatars::-webkit-scrollbar {
+      display: none;
     }
      
     & .avatar {
@@ -44,6 +50,10 @@ export const StyledCrew = styled.div`
     }
 
     @media(max-width: 700px) {
+
+        & .avatars {
+            overflow-x: scroll;
+        }
 
         & .avatar {
             margin-top: 0.5rem;
