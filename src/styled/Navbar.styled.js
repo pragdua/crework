@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 export const StyledNavbar = styled.div`
     // border: 2px solid red;
     display: flex;
@@ -15,9 +16,10 @@ export const StyledNavbar = styled.div`
         background: white;
         position: relative;
         font-family: 'Epilogue', sans-serif;
+        font-weight: 600;
         border: none;
         cursor: pointer;
-
+            
 
     }
 

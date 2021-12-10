@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Stats from "./components/Stats";
+import Step from "./components/Step";
 
 function App() {
   return (
@@ -12,8 +13,10 @@ function App() {
       <Navbar />
       <Hero/>
       <Stats/>
+      <Step/>
       </div>
     </StyledContainer>
+
     </>
   );
 }

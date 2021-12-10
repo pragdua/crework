@@ -1,4 +1,6 @@
+import { keyframes } from "styled-components";
 import styled from "styled-components";
+
 
 export const StyledHero = styled.div`
 
@@ -23,6 +25,8 @@ export const StyledHero = styled.div`
         border: none;
         cursor: pointer;
         margin-top: 30px;
+        font-weight: 600;
+
 
     }
 

@@ -29,7 +29,7 @@ export const StyledStats = styled.div`
     
     @media(min-width: 700px) {
 
-        width: 100%;
+        width: 50%;
         & .container__value {
         /* Big font size */
         font-size: 2.5rem;
