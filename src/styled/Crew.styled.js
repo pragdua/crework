@@ -43,6 +43,18 @@ export const StyledCrew = styled.div`
         margin-left: 20px;
     }
 
+    @media(max-width: 700px) {
+
+        & .avatar {
+            margin-top: 0.5rem;
+        }
+
+        & .avatar + .avatar{
+            margin-left: 0.5rem;
+            margin-top: 0.5rem;
+        }
+    }
+
     
 
 `;
