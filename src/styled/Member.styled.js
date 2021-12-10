@@ -7,7 +7,8 @@ import styled from "styled-components";
 export const StyledMember = styled.div`
     font-family: 'Epilogue', sans-serif;
     margin-top: 2rem;
-    
+    margin-bottom: 2rem;
+
     & .member-name {
         font-size: 1.5rem;
         font-weight: 600;
