@@ -1,16 +1,5 @@
-import styled, {keyframes} from "styled-components";
+import styled from "styled-components";
 
-// const float = keyframes`
-
-// 0% {
-//     transform: translateY(50px);
-//     opacity: 0;
-// }
-// 100%{
-
-// }
-
-// `;
 
 
 

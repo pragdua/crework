@@ -1,4 +1,3 @@
-import { keyframes } from "styled-components";
 import styled from "styled-components";
 
 
@@ -11,11 +10,11 @@ export const StyledHero = styled.div`
     background: #121212;
     /* padding: 1.7rem; */
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 1rem;
 
 
 
-    & .hero-title button {
+    &   button {
         padding: 10px 15px 10px 15px;
         border-radius: 20px;
         color: #121212;
@@ -41,6 +40,17 @@ export const StyledHero = styled.div`
             display: none;
         }
 
+    & .buttons {
+        display: flex;
+        justify-content: flex-start;
+    }
+  
+    & .ml-button {
+        margin-left: 10px;
+        background: #121212;
+        border: 2px solid white;
+        color: white;
+    }
     
 
     @media(min-width: 700px) {

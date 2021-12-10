@@ -8,7 +8,11 @@ const Hero = () => {
             
             <div className="hero-title">
             <h1>learn while building projects with a community.</h1>
-            <button>join waitlist</button>
+            <div className="buttons">
+
+            <button>join webdev waitlist</button>
+            <button className='ml-button'>apply for ML batch 3</button>
+            </div>
             </div>
 
             <div className="hero-img">
